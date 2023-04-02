@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Bem-Vindo!
+    </ion-title>
+    <ion-avatar>
+      <img routerLink="/perfil" alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+    </ion-avatar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <strong style="font-size: 40px;">GUIDE OF BARCELOS</strong>
+    <ion-button id="Cultura" size="large" routerLink="/cultura"  color="barcelos" shape="round">
+      Cultura
+    </ion-button>
+    <ion-button id="Gastronomia" routerLink="/gastronomia" size="large" color="barcelos" shape="round">
+      Gastronomia
+    </ion-button>
+    <ion-button id="Pontos" routerLink="/pontos"  size="large"  color="barcelos" shape="round">
+      Pontos de Interesse
+    </ion-button>
+    <ion-button id="Personalidades" routerLink="/personalidades"  size="large" color="barcelos" shape="round">
+      Personalidades
+    </ion-button>
+  </div>
+</ion-content>
