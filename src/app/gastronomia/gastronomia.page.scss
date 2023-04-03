@@ -1,7 +1,11 @@
 #container{
     text-align: center;
     position: relative;
-    top: 10%;
+    top: 5%;
+  }
+
+  strong{
+    margin-bottom: 5%;
   }
   
   ion-content{
@@ -16,10 +20,8 @@
     margin-bottom: 5px;
   }
 
-  ion-button{
-    width: 50%;
-    margin-top: 15%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 20px;
+  ion-card{
+    background-color:var(--ion-color-barcelos-contrast);
+    --ion-text-color: var(--ion-color-barcelos);
   }
+
