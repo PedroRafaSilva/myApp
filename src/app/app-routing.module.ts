@@ -30,6 +30,22 @@ const routes: Routes = [
     path: 'gastronomia',
     loadChildren: () => import('./gastronomia/gastronomia.module').then( m => m.GastronomiaPageModule)
   },
+  {
+    path: 'curiosidades/:id',
+    loadChildren: () => import('./curiosidades/curiosidades.module').then( m => m.CuriosidadesPageModule)
+  },
+  {
+    path: 'pratos/:id',
+    loadChildren: () => import('./pratos/pratos.module').then( m => m.PratosPageModule)
+  },
+  {
+    path: 'locais/:id',
+    loadChildren: () => import('./locais/locais.module').then( m => m.LocaisPageModule)
+  },
+  {
+    path: 'famosos/:id',
+    loadChildren: () => import('./famosos/famosos.module').then( m => m.FamososPageModule)
+  },
 ];
 @NgModule({
   imports: [
